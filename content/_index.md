@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Welcome to the <br> Uveitis dataset.
+      title: Welcome to the <br> Neurosarcoidosis dataset.
       image:
         filename: manuscript_scheme.png
       text:
@@ -16,9 +16,8 @@ sections:
     content:
       title:
       text: |
-        This is the corresponding website to the publication [Intraocular dendritic cells characterize HLA-B27-associated acute anterior uveitis](https://doi.org/10.7554/elife.67396) 
-        by Kasper et al., *eLife* 2021. We present single cell RNA-sequencing data intraocular liquid from HLA-B27-positive and -negative uveitis patients.
-        The raw sequencing are available via [GEO GSE178833](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178833).
+        This is the corresponding website to the publication [Leukocyte profiles in blood and CSF distinguish neurosarcoidosis from multiple sclerosis](https://doi.org/10.1016/j.jneuroim.2020.577171) 
+        by Heming et. al, *Journal of Neuroimmunmology* 2020. We analyzed flow cytometry of blood and CSF from patinets suffering from neurosarcoidosis and multiple sclerosis.
 
   - block: collection
     id: datasets
