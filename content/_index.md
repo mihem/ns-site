@@ -17,7 +17,7 @@ sections:
       title:
       text: |
         This is the corresponding website to the publication [Leukocyte profiles in blood and CSF distinguish neurosarcoidosis from multiple sclerosis](https://doi.org/10.1016/j.jneuroim.2020.577171) 
-        by Heming et. al, *Journal of Neuroimmunmology* 2020. We analyzed flow cytometry of blood and CSF from patinets suffering from neurosarcoidosis and multiple sclerosis.
+        by Heming et. al, *Journal of Neuroimmunmology* 2020. We analyzed flow cytometry of blood and CSF from patients suffering from neurosarcoidosis and multiple sclerosis.
 
   - block: collection
     id: datasets
