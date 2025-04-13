@@ -1,25 +1,29 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-12-12
 type: landing
 
 sections:
   - block: hero
     content:
-      title: |
-        Wowchemy
-        Research Group
+      title: Welcome to the <br> Uveitis dataset.
       image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
+        filename: manuscript_scheme.png
+      text:
+
+  - block: markdown
     content:
-      title: Latest News
+      title:
+      text: |
+        This is the corresponding website to the publication [Intraocular dendritic cells characterize HLA-B27-associated acute anterior uveitis](https://doi.org/10.7554/elife.67396) 
+        by Kasper et al., *eLife* 2021. We present single cell RNA-sequencing data intraocular liquid from HLA-B27-positive and -negative uveitis patients.
+        The raw sequencing are available via [GEO GSE178833](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178833).
+
+  - block: collection
+    id: datasets
+    content:
+      title: Dataset
       subtitle:
       text:
       count: 5
@@ -31,50 +35,16 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: post
+      page_type: datasets
     design:
-      view: card
+      view: showcase
       columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+      flip_alt_rows: false
 
   - block: markdown
+    id: contact
     content:
-      title:
-      subtitle:
+      title: Contact
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+        If you have any questions, please contact us via [mheming.com](https://www.mheming.com).
 ---
